@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .h1-semibold {
+    @apply text-5xl text-light-400 font-medium;
+  }
+
+  .h1-bold {
+    @apply text-5xl text-light-400 font-semibold;
+  }
+
+  .h2-semibold {
+    @apply text-4xl text-light-400 font-medium;
+  }
+
+  .h2-bold {
+    @apply text-4xl text-light-400 font-semibold;
+  }
+
+  .h2-semibold {
+    @apply text-4xl text-light-400 font-medium;
+  }
+
+  .h3-semibold {
+    @apply text-2xl text-light-400 font-medium;
+  }
+
+  .h3-bold {
+    @apply text-2xl text-light-400 font-semibold;
+  }
+
+  .h3-semibold {
+    @apply text-2xl text-light-400 font-medium;
+  }
+
+  .h3-bold {
+    @apply text-2xl text-light-400 font-semibold;
+  }
+
+  .h4-semibold {
+    @apply text-base text-light-400 font-medium;
+  }
+
+  .h4-bold {
+    @apply text-base text-light-400 font-semibold;
+  }
+
+  .h5-semibold {
+    @apply text-sm text-light-400 font-medium;
+  }
+
+  .h5-bold {
+    @apply text-sm text-light-400 font-semibold;
+  }
+
+  .h6-bold {
+    @apply text-[18px] text-light-400 font-semibold;
+  }
+
+  .btn {
+    @apply bg-primary-500 text-light-900 rounded-lg;
+  }
+
+  .btn-secondary {
+    @apply bg-light-900 text-primary-500 rounded-lg border-[1px] border-light-400;
+  }
+
+  .btn-text {
+    @apply bg-light-900 text-primary-500 rounded-lg;
+  }
+
+  .btn-text {
+    @apply bg-light-900 text-primary-500 rounded-lg;
+  }
+
+  .btn-elevated {
+    @apply bg-light-900 text-primary-500 rounded-lg shadow-light-100;
+  }
+}
