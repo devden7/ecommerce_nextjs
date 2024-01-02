@@ -4,12 +4,8 @@
 
 @import url("../styles/theme.css");
 
-body {
-  font-family: "Causten", "Core-San";
-}
-
 @layer utilities {
-  flex-center {
+  .flex-center {
     @apply flex justify-center items-center;
   }
 }

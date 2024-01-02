@@ -33,8 +33,8 @@ const config: Config = {
         "light-100": "0px 3px 4px 0px rgba(0, 0, 0, 0.10)",
       },
       fontFamily: {
-        causten: "Causten",
-        coresans: "Coresans",
+        causten: ["var(--font-causten)"],
+        coresans: ["var(--font-coreSan)"],
       },
     },
   },
