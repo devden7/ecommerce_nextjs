@@ -4,59 +4,51 @@
 
 @layer utilities {
   .h1-semibold {
-    @apply text-5xl text-light-400 font-medium;
+    @apply text-5xl font-semibold;
   }
 
   .h1-bold {
-    @apply text-5xl text-light-400 font-semibold;
+    @apply text-5xl font-bold;
   }
 
   .h2-semibold {
-    @apply text-4xl text-light-400 font-medium;
+    @apply text-4xl font-semibold;
   }
 
   .h2-bold {
-    @apply text-4xl text-light-400 font-semibold;
+    @apply text-4xl font-bold;
   }
 
   .h2-semibold {
-    @apply text-4xl text-light-400 font-medium;
+    @apply text-4xl font-semibold;
   }
 
   .h3-semibold {
-    @apply text-2xl text-light-400 font-medium;
+    @apply text-3xl font-semibold;
   }
 
   .h3-bold {
-    @apply text-2xl text-light-400 font-semibold;
-  }
-
-  .h3-semibold {
-    @apply text-2xl text-light-400 font-medium;
-  }
-
-  .h3-bold {
-    @apply text-2xl text-light-400 font-semibold;
+    @apply text-3xl font-bold;
   }
 
   .h4-semibold {
-    @apply text-base text-light-400 font-medium;
+    @apply text-base font-semibold;
   }
 
   .h4-bold {
-    @apply text-base text-light-400 font-semibold;
+    @apply text-base font-bold;
   }
 
   .h5-semibold {
-    @apply text-sm text-light-400 font-medium;
+    @apply text-sm font-semibold;
   }
 
   .h5-bold {
-    @apply text-sm text-light-400 font-semibold;
+    @apply text-sm font-bold;
   }
 
   .h6-bold {
-    @apply text-[18px] text-light-400 font-semibold;
+    @apply text-[18px] font-bold;
   }
 
   .btn {
