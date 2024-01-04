@@ -36,6 +36,9 @@ const config: Config = {
         causten: ["var(--font-causten)"],
         coresans: ["var(--font-coreSan)"],
       },
+      backgroundImage: {
+        "hero-background": "url('/assets/img/hero-image.jpg')",
+      },
     },
   },
   plugins: [],
