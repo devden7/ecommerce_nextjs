@@ -1,12 +1,15 @@
+"use client";
+
+import DealslSection from "@/components/home/DealslSection";
+import { HeroSection } from "@/components/home/HeroSection";
+import NewArrival from "@/components/home/NewArrival";
+
 export default function Home() {
   return (
-    <div>
-      <p className="font-causten text-red-500">
-        Trendy is the last stage before tacky
-      </p>
-      <p className="font-coresans text-yellow-500 ">
-        Trendy is the last stage before tacky
-      </p>
-    </div>
+    <>
+      <HeroSection />
+      <DealslSection />
+      <NewArrival />
+    </>
   );
 }

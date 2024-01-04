@@ -31,6 +31,10 @@
     @apply text-3xl font-bold;
   }
 
+  .h3-tittle {
+    @apply font-coresans tracking-[0.6px] text-light-400;
+  }
+
   .h4-semibold {
     @apply text-base font-semibold;
   }
